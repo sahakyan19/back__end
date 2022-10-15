@@ -1,0 +1,258 @@
+@media screen and (max-width: 1620px) {
+
+  .mobiles-details-img {
+    width: 400px;
+  }
+
+  .mobiles-details-info-box {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  .mobiles-details-container {
+    width: 100%;
+    height: auto;
+    padding: 100px 40px 60px 40px;
+  }
+
+  .mobiles-details-box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .mobiles-details-img-box {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobiles-details-img {
+    width: 100%;
+  }
+
+  .mobiles-details-info-box {
+    gap: 30px;
+  }
+
+  .mobiles-details-top-box {
+    width: 90%;
+  }
+
+  .mobiles-details-boxes {
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .mobiles-details-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .mobiles-details-box {
+    flex-direction: column;
+  }
+
+  .mobiles-details-img-box {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobiles-details-img {
+    width: 100%;
+  }
+
+  .mobiles-details-info-box {
+    gap: 30px;
+  }
+
+  .mobiles-details-top-box {
+    width: 90%;
+  }
+
+  .mobiles-details-boxes {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mobiles-details-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .mobiles-details-box {
+    flex-direction: column;
+  }
+
+  .mobiles-details-img-box {
+    width: 600px;
+  }
+
+  .mobiles-details-info-box {
+    gap: 30px;
+  }
+
+  .mobiles-details-top-box {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .mobiles-details-boxes {
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .mobiles-details-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .mobiles-details-box {
+    flex-direction: column;
+  }
+
+  .mobiles-details-img-box {
+    width: 600px;
+  }
+
+  .mobiles-details-info-box {
+    gap: 30px;
+  }
+
+  .mobiles-details-top-box {
+    width: 90%;
+  }
+
+  .mobiles-details-boxes {
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mobiles-details-desc {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobiles-details-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .mobiles-details-box {
+    flex-direction: column;
+  }
+
+  .mobiles-details-img-box {
+    width: 600px;
+  }
+
+  .mobiles-details-info-box {
+    gap: 30px;
+  }
+
+  .mobiles-details-top-box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .names {
+    font-size: 22px;
+  }
+
+  .info {
+    width: 80px;
+    justify-content: flex-start;
+    height: 80px;
+  }
+
+  .mobiles-details-boxes {
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobiles-details-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .mobiles-details-box {
+    flex-direction: column;
+  }
+
+  .mobiles-details-img-box {
+    width: 400px;
+  }
+
+  .mobiles-details-top-box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .header-box {
+    flex-direction: column;
+  }
+
+  .mobiles-details-header {
+    font-size: 20px;
+  }
+
+  .mobiles-details-info-box {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .mobiles-details-container {
+    width: 100%;
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .mobiles-details-box {
+    flex-direction: column;
+  }
+
+  .mobiles-details-img-box {
+    width: 100%;
+  }
+
+  .mobiles-details-top-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .mobiles-details-header {
+    font-size: 20px;
+  }
+
+  .mobiles-details-info-box {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .mobiles-details-desc {
+    width: 100%;
+  }
+}

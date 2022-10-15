@@ -1,0 +1,131 @@
+.cart-container {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-container:hover {
+  box-shadow: 0 0 20px #793ce39a;
+}
+
+.cart-img {
+  width: 250px;
+  border-radius: 25px;
+}
+
+.cart-model {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-model-color-price-box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cart-count-box {
+  width: 80px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background: green;
+  color: #fff;
+  border-radius: 5px;
+  top: 8px;
+  left: 8px;
+  position: absolute;
+}
+
+.cart-color {
+  font-size: 20px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.memory-price-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cart-memory {
+  font-size: 20px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-plus-minus-box {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-minus-button {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #ea336f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart-length-box {
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-length {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart-plus-button {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #ea336f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart-plus-button:active,
+.cart-minus-button:active {
+  transform: scale(0.95);
+}
+

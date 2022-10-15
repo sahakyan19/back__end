@@ -1,0 +1,111 @@
+.tablets-details-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.tablets-details-box {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.tablets-details-img-box {
+  width: 1000px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tablets-details-img {
+  width: 100%;
+  height: 100%;
+}
+
+.tablets-details-info-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.tablets-details-top-box {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebebeb;
+  transition: all 0.3s ease-in-out;
+}
+
+.names {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.tablets-details-boxes {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.info {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablets-details-type {
+  text-transform: capitalize;
+}
+
+.tablets-details-price {
+  /* font-size: 22px; */
+  font-weight: bold;
+  color: green;
+}
+
+.tablet-details-button-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tablets-details-add-button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #ea336f;
+  color: #fff;
+  border: none;
+  outline: 0;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tablets-details-add-button:hover {
+  background: #f6588d;
+}
+
+.tablets-details-add-button:active {
+  transform: scale(0.95);
+}

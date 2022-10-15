@@ -1,0 +1,257 @@
+@media screen and (max-width: 1620px) {
+
+  .all-items-view-img {
+    width: 400px;
+  }
+
+  .all-items-view-info-box {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  .all-items-view-container {
+    width: 100%;
+    height: auto;
+    padding: 100px 40px 60px 40px;
+  }
+
+  .all-items-view-box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .all-items-view-img-box {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .all-items-view-img {
+    width: 100%;
+  }
+
+  .all-items-view-info-box {
+    gap: 30px;
+  }
+
+  .all-items-view-info-top-box {
+    width: 90%;
+  }
+
+  .all-items-view-info-boxes {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .all-items-view-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .all-items-view-box {
+    flex-direction: column;
+  }
+
+  .all-items-view-img-box {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .all-items-view-img {
+    width: 100%;
+  }
+
+  .all-items-view-info-box {
+    gap: 30px;
+  }
+
+  .all-items-view-info-top-box {
+    width: 90%;
+  }
+
+  .all-items-view-info-boxes {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .all-items-view-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .all-items-view-box {
+    flex-direction: column;
+  }
+
+  .all-items-view-img-box {
+    width: 600px;
+  }
+
+  .all-items-view-info-box {
+    gap: 30px;
+  }
+
+  .all-items-view-info-top-box {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .all-items-view-info-boxes {
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .all-items-view-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .all-items-view-box {
+    flex-direction: column;
+  }
+
+  .all-items-view-img-box {
+    width: 600px;
+  }
+
+  .all-items-view-info-box {
+    gap: 30px;
+  }
+
+  .all-items-view-info-top-box {
+    width: 90%;
+  }
+
+  .all-items-view-info-boxes {
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .all-items-view-desc {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .all-items-view-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .all-items-view-box {
+    flex-direction: column;
+  }
+
+  .all-items-view-img-box {
+    width: 600px;
+  }
+
+  .all-items-view-info-box {
+    gap: 30px;
+  }
+
+  .all-items-view-info-top-box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .names {
+    font-size: 22px;
+  }
+
+  .info {
+    width: 80px;
+    justify-content: flex-start;
+    height: 80px;
+  }
+
+  .all-items-view-info-boxes {
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .all-items-view-container {
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .all-items-view-box {
+    flex-direction: column;
+  }
+
+  .all-items-view-img-box {
+    width: 400px;
+  }
+
+  .all-items-view-info-top-box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .header-box {
+    flex-direction: column;
+  }
+
+  .all-items-view-header {
+    font-size: 20px;
+  }
+
+  .all-items-view-info-box {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .all-items-view-container {
+    width: 100%;
+    height: auto;
+    padding: 100px 0 80px 0;
+  }
+
+  .all-items-view-box {
+    flex-direction: column;
+  }
+
+  .all-items-view-img-box {
+    width: 100%;
+  }
+
+  .all-items-view-info-top-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .all-items-view-header {
+    font-size: 20px;
+  }
+
+  .all-items-view-info-box {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .all-items-view-desc {
+    width: 100%;
+  }
+}

@@ -1,0 +1,116 @@
+.favourite-container {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
+  transition: all 0.3s ease-in-out;
+}
+
+.favourite-container:hover {
+  box-shadow: 0 0 20px #793ce39a;
+}
+
+.favourite-img {
+  width: 250px;
+  border-radius: 25px;
+}
+
+.favourite-model {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.favourite-model-color-price-box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.favourite-count-box {
+  width: 80px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background: green;
+  color: #fff;
+  border-radius: 5px;
+  top: 8px;
+  left: 8px;
+  position: absolute;
+}
+
+.favourite-color {
+  font-size: 20px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.memory-price-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.favourite-memory {
+  font-size: 20px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.favourite-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.favourite-length-box {
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favourite-length {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.favourite-delete-button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.favourite-delete-icon {
+  font-size: 30px;
+  font-weight: bold;
+  color: #7a3ce3;
+}
+
+.favourite-delete-button:active {
+  transform: scale(0.95);
+}
+

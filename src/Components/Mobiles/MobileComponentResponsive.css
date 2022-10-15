@@ -1,0 +1,104 @@
+@media screen and (max-width: 1620px) {
+  .mobile-component-container {
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 1250px) {
+  .mobile-component-container {
+    width: 100%;
+  }
+
+  .mobile-title {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-component-container {
+    width: 100%;
+  }
+
+  .mobile-srch-button-box {
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-title {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-component-container {
+    width: 100%;
+  }
+
+  .mobile-title {
+    margin-top: 30px;
+  }
+
+  .mobile-srch-button-box {
+    width: 400px;
+  }
+
+  .mobile-srch {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .mobile-component-container {
+    width: 100%;
+    gap: 60px;
+  }
+
+  .mobile-component-content {
+    width: 100%;
+  }
+
+  .mobile-title {
+    margin-top: 0;
+  }
+
+  .mobile-srch-button-box {
+    position: static;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-srch {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .mobile-component-container {
+    width: 100%;
+  }
+
+  .mobile-component-content {
+    width: 100%;
+  }
+
+  .mobile-title {
+    margin-top: 0;
+  }
+
+  .mobile-srch-button-box {
+    position: static;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-srch {
+    width: 200px;
+  }
+}
+

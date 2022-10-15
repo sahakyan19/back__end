@@ -1,0 +1,161 @@
+.accessorie-container {
+  width: 300px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
+  transition: all 0.3s ease-in-out;
+}
+
+.accessorie-container:hover {
+  box-shadow: 0 0 20px #793ce39a;
+}
+
+.accessorie-img-box {
+  width: 250px;
+  height: 250px;
+}
+
+.accessorie-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.accessorie-model {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.model-color-price-box {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accessorie-count-box {
+  width: 80px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background: green;
+  color: #fff;
+  border-radius: 5px;
+  top: 8px;
+  left: 8px;
+  position: absolute;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 24px;
+  color: red;
+  cursor: pointer;
+}
+
+.heart-icon:active {
+  transform: scale(0.95);
+}
+
+.accessorie-color {
+  font-size: 16px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.memory-price-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.accessory-memory {
+  font-size: 16px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.accessorie-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.accessories-button-box {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.details-accessories {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #7A3CE3;
+  color: #fff;
+  border: none;
+  outline: 0;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buy-accessorie {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #ea336f;
+  color: #fff;
+  border: none;
+  outline: 0;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buy-accessorie:hover {
+  background: #f85088;
+}
+
+.buy-accessorie:active {
+  transform: scale(0.97);
+}
+
+.details-accessories:hover {
+  background: #9967f0;
+}
+
+.details-accessories:active {
+  transform: scale(0.97);
+}

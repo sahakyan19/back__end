@@ -1,0 +1,185 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: #7a3ce3;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-bar {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.nav-items {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-menu-box {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.nav-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.nav-list {
+  width: 140px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  border-radius: 10px;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.nav-list:hover {
+  background: #ea336f;
+}
+
+.nav-list:active {
+  background: #ff6397;
+  transition: 0.1s;
+}
+
+.nav-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100%;
+}
+
+.nav-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #ea336f;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.nav-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 15px #45808b;
+}
+
+.hamburger {
+  display: none;
+}
+
+.cart-favourite-box {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.favourite-box {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.favourite-icon {
+  font-size: 35px;
+  color: #fff;
+}
+
+.cart-plus-box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-plus-icon {
+  font-size: 35px;
+  color: #fff;
+}
+
+.badge {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+}
+
+.theme-box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,109 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background: #7a3ce3;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-logo-box {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 35px;
+  color: #fff;
+}
+
+.footer-row-boxes {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left-box {
+  width: 50%;
+  height: 200px;
+  font-size: 20px;
+  padding-top: 50px;
+  /* !Make it flexible */
+}
+
+.icon-box{
+  display: flex;
+  margin: 20px;
+}
+
+.text{
+  font-size: 30px;
+  color: white;
+  /* margin: 20px; */
+}
+
+.footer-right-box {
+  width: 50%;
+  height: 200px;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.location{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  margin: 10px;
+  display: flex;
+}
+
+.phone{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  margin: 10px;
+  display: flex;
+}
+
+.email{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  margin: 10px;
+  display: flex;
+}
+
+.time{
+  font-size: 15px;
+  color: #fff;
+  margin: 10px;
+  display: flex;
+}
+
+.icon{
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.footer-copyright-container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #fff;
+}
+
+.footer-copyright-text {
+  font-size: 18px;
+  color: #fff;
+}
+

@@ -1,0 +1,58 @@
+@media screen and (max-width: 1620px) {
+  .favourites-component-container {
+    width: 100%;
+  }
+
+  .favourites-component-title-box {
+    width: 100%;
+  }
+
+  .favourites-price-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .favourites-component-container {
+    width: 100%;
+  }
+
+  .favourites-component-title-box {
+    width: 100%;
+  }
+
+  .total-price-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .favourites-component-container {
+    width: 100%;
+  }
+
+  .favourites-component-title-box {
+    width: 100%;
+  }
+
+  .total-price-box {
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .no-items-favourite > h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .no-items-favourite > h1 {
+    font-size: 22px;
+  }
+}

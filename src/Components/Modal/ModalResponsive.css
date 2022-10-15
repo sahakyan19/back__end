@@ -1,0 +1,159 @@
+@media screen and (max-width: 1440px) {
+  .modal-form {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .modal-form {
+    width: 900px;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 500px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .modal-form {
+    width: 800px;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 500px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .modal-form {
+    width: 700px;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 500px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-form {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 500px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .modal-form {
+    width: 100%;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 450px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal-form {
+    width: 100%;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 400px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .modal-form {
+    width: 100%;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 350px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal-form {
+    width: 100%;
+  }
+
+  .modal-signup {
+    font-size: 40px;
+  }
+
+  .input {
+    width: 300px;
+    height: 50px;
+  }
+
+  .modal-input-message {
+    height: 150px;
+  }
+}

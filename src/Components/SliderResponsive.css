@@ -1,0 +1,29 @@
+@media screen and (max-width: 375px) {
+
+  .slide-title {
+    font-size: 24px;
+}
+
+.slide-description {
+  font-size: 18px;
+}
+
+.prev-slide, .next-slide {
+  font-size: 40px;
+}
+}
+
+@media screen and (max-width: 320px) {
+
+  .slide-title {
+    font-size: 24px;
+}
+
+.slide-description {
+  font-size: 18px;
+}
+
+.prev-slide, .next-slide {
+  font-size: 40px;
+}
+}

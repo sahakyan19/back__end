@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 100%;
+  background: #7a3ce3;
+}
+
+.main-web-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  background: #7a3ce3;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
+
+.container-modal {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Nunito;
+  color: #fafafa;
+}
+
+.slider-container {
+  width: 100%;
+}
+
+/* .main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  background: #f5c144;
+} */
+
+@media screeb and (max-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    width: 100%;
+    background: #7a3ce3;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-web-page {
+    width: 320px;
+  }
+
+  .slider-container {
+    width: 100%;
+  }
+
+  .container-modal {
+    width: 100%;
+  }
+}
