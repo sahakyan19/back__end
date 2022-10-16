@@ -50,6 +50,7 @@ useEffect(() => {
     getMobiles()
 },[])
 
+
   useEffect(()=>{
     let type = searchParams.get('id');
   if(type){
