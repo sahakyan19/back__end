@@ -21,6 +21,7 @@ import TabletsDetails from './Components/TabletsDetails/TabletsDetails'
 import AccessoriesDetails from './Components/AccessoriesDetails/AccessoriesDetails'
 import axios from "axios";
 import './App.css'
+import ScrollToTopOnRefresh from './ScrollToTopOnRefresh'
 
 
 function App() {
@@ -29,32 +30,58 @@ function App() {
   const [cart, setCart] = useState([]);
   const [fav, setFav] = useState([]);
   const [inpVal, setInpVal] = useState('');
-  const [product, setProduct] =useState([...DATA]);
-  const [staticProduct, setStaticProduct] = useState([...DATA]);
+  const [product, setProduct] =useState([]);
+  const [staticProduct, setStaticProduct] = useState([]);
   const [mobile, setMobile] = useState([])
   const [staticMobile, setStaticMobile] = useState([])
-  const [tablet, setTablet] = useState([...TABLET_DATA])
-  const [staticTablet, setStaticTablet] = useState([...TABLET_DATA])
-  const [accessorie, setAccessorie] = useState([...ACCESSORIES_DATA])
-  const [staticAccessorie, setStaticAccessorie] = useState([...ACCESSORIES_DATA])
+  const [tablet, setTablet] = useState([])
+  const [staticTablet, setStaticTablet] = useState([])
+  const [accessorie, setAccessorie] = useState([])
+  const [staticAccessorie, setStaticAccessorie] = useState([])
   const [modalActive, setModalActive] = useState(false);
   const [theme, setTheme] = useState(false);
   const [searchParams, setSearchParams] = useSearchParams();
 
+  async function getProducts() {
+    const response = await axios.get(`http://localhost:8000/api/all-products`);
+    setProduct(response.data)
+    setStaticProduct(response.data)
+  }
   async function getMobiles() {
-    const response = await axios.get(`http://localhost:8000/api/mobiles`  );
-    await setMobile(response.data)
-}
+    const response = await axios.get(`http://localhost:8000/api/mobiles`);
+    setMobile(response.data)
+    setStaticMobile(response.data)
+  }
+  async function getTablets() {
+    const response = await axios.get(`http://localhost:8000/api/tablets`);
+    setTablet(response.data)
+    setStaticTablet(response.data)
+  }
+  async function getAccessories() {
+    const response = await axios.get(`http://localhost:8000/api/accessories`);
+    setAccessorie(response.data)
+    setStaticAccessorie(response.data)
+  }
 
-useEffect(() => {
+  useEffect(() => {
+    getProducts()
+  },[])
+  useEffect(() => {
     getMobiles()
-},[])
+  },[])
 
+  useEffect(() => {
+    getTablets()
+  },[])
+
+  useEffect(() => {
+    getAccessories()
+  },[])
 
   useEffect(()=>{
     let type = searchParams.get('id');
   if(type){
-    setMobile(mobile.filter((item) => item.model.toLowerCase().includes(type)))
+    setMobile(staticMobile.filter((item) => item.model.toLowerCase().includes(type)))
     console.log(type);
   }
   },[])
@@ -78,7 +105,7 @@ useEffect(() => {
   }, [inpVal, setInpVal])
 
   const clickToSearchMobile = useCallback(() => {
-    setMobile(mobile.filter((item) => item.model.toLowerCase().includes(inpVal)))
+    setMobile(staticMobile.filter((item) => item.model.toLowerCase().includes(inpVal)))
     setInpVal('')
     setSearchParams({key:inpVal})
   }, [inpVal, setInpVal])
@@ -144,6 +171,7 @@ useEffect(() => {
           {
             showModal ? <Modal theme={theme} showModal={showModal} setShowModal={setShowModal} modalActive={modalActive} setModalActive={setModalActive} /> : null
           }
+          <ScrollToTopOnRefresh/>
           <Routes>
             <Route path='/' element={<Layouts fav={fav} cart={cart} openModal={openModal} theme={theme} changeTheme={changeTheme}/>}>
               <Route path='/' element={<Home theme={theme}/>}/>
@@ -172,7 +200,7 @@ useEffect(() => {
                 theme={theme}
                 />}
               />
-              <Route path='/shop/all-products/product' element={<ItemsDetails 
+              <Route path='/shop/all-products/product' element={<ItemsDetails
                 addToCart={addToCart}
                 addFavourite={addFavourite}
                 theme={theme}
